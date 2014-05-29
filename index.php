@@ -52,6 +52,8 @@
 
     <div class="container-fluid">
 	  <h3><? echo $serverAppsPath ?></h3>
+	  <p>To update the Server's steam directory, open a powershell prompt and run the following command: <br />
+	  xcopy 'C:\Program Files (x86)\Steam\SteamApps\common\*' '<?php echo $clientAppsPath; ?>\' /s /r /h /y /z </p>
       <table class="table table-bordered table-striped table-hover">
 		<thead>
 			<tr>
